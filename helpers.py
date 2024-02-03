@@ -22,5 +22,5 @@ def column_content_from_csv(column, filename: str, title: str):
         column.markdown(title)
         reader = csv.reader(handle, delimiter=",")
         _ = next(reader, None)  # CSV headers
-        for (text, link)in reader:
+        for (text, link) in reader:
             column.markdown(f"- [{text}]({link})  ")

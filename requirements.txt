@@ -1,2 +1,2 @@
-streamlit
-st-pages
+st-pages==0.4.5
+streamlit==1.31.0

@@ -1,4 +1,13 @@
+# Purpose
+Quick knockoff of Denver Python website at `https://denver-python.github.io/` using `streamlit`.
+
 # Development
+## Install pyenv
+### MacOS using brew
+```
+brew install pyenv
+```
+
 ## Create virtualenv
 ```
 pyenv install 3.12.0

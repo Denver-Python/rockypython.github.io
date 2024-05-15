@@ -3,9 +3,17 @@ Quick knockoff of Denver Python website at `https://denver-python.github.io/` us
 
 # Development
 ## Install pyenv
-### MacOS using brew
+### MacOS
 ```
 brew install pyenv
+```
+or:
+```
+curl https://pyenv.run | bash
+```
+### UNIX
+```
+curl https://pyenv.run | bash
 ```
 
 ## Create virtualenv

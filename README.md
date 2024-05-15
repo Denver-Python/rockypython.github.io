@@ -34,3 +34,7 @@ streamlit run streamlit_app.py
 ## View in browser
 Direct browser to `http://localhost:8501/`
 
+# Known bugs
+- Default display does not show with home page at first.
+I think the fix would be related to this bug report from 2023:
+https://discuss.streamlit.io/t/how-to-set-the-default-page-in-multipage-app-i-dont-want-to-use-main-welcome-page/51270/2
